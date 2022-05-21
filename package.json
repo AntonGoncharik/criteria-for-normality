@@ -1,0 +1,18 @@
+{
+  "name": "criteria-of-normality",
+  "version": "0.0.1",
+  "main": "main.js",
+  "repository": "git@github.com:AntonGoncharik/criteria-of-normality.git",
+  "author": "AntonGoncharik <ant.goncharik@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^18.2.3",
+    "electron-reloader": "^1.2.3"
+  },
+  "dependencies": {
+    "jerzy": "^0.2.1"
+  }
+}

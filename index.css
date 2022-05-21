@@ -1,0 +1,38 @@
+
+.app {
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: #f0f0f0;
+}
+
+.settings {
+  display: flex;
+  flex-wrap: wrap;
+  grid-column: 1 / -1;
+}
+
+.settings .form-check {
+  margin-right: 1rem;
+}
+
+.settings .form-check input,
+.settings .form-check label {
+  cursor: pointer;
+}
+
+.actions {
+  grid-column: 1 / 2;
+}
+
+.result {
+  grid-column: 2 / -1;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.input-group.mb-3 {
+  display: flex;
+  align-items: center;
+}
